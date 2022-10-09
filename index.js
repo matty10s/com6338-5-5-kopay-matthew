@@ -6,6 +6,7 @@ var listItems = document.getElementById("todo-list")
 var buttons
 
 
+//building form input functions
 form.onsubmit = function(e){
     e.preventDefault()
     var textValue = document.querySelector("input").value
