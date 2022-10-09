@@ -29,7 +29,7 @@ function addLi(item){
     console.log(buttons)
 }
     
-//strikethrough if clicked, remove if strikethrough
+//strikethrough if clicked remove if strikethrough
 listItems.addEventListener("click", function(e){
     if (e.target.style.textDecoration != "line-through"){
         e.target.style.textDecoration = "line-through"
